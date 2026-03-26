@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnKaz"
+        android:layout_width="327dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFF6EB"
+        android:fontFamily="@font/fredoka_medium"
+        android:text="Kazakh"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBel" />
+
+    <Button
+        android:id="@+id/btnBel"
+        android:layout_width="327dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFF6EB"
+        android:fontFamily="@font/fredoka_medium"
+        android:text="Belarus"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChi" />
+
+    <Button
+        android:id="@+id/btnChi"
+        android:layout_width="327dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFF6EB"
+        android:fontFamily="@font/fredoka_medium"
+        android:text="Chinese"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEng" />
+
+    <Button
+        android:id="@+id/btnEng"
+        android:layout_width="327dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFF6EB"
+        android:fontFamily="@font/fredoka_medium"
+        android:text="English"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRus" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114dp"
+        android:fontFamily="@font/fredoka_medium"
+        android:text="What is your Mother language?"
+        android:textColor="#080E1E"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRus"
+        android:layout_width="327dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#F76400"
+        android:fontFamily="@font/fredoka_medium"
+        android:text="Russian"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="22sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#5B7BFE"
+        android:fontFamily="@font/fredoka_medium"
+        android:text="Choose"
+        android:textSize="20sp"
+        app:cornerRadius="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKaz"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
